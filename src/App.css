@@ -1,38 +1,113 @@
+body {
+  background-color: #f6f4e8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header {
+  background-color: #f6f4e8;
+  padding: 32px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Navigation-Link {
+  color: #1d3125;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Navigation-Link:hover {
+  color: #e59560;
 }
 
-.App-link {
-  color: #61dafb;
+.Quotes {
+  background-color: #1d3125;
+  color: #f6f4e8;
+  padding: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sub-title {
+  padding-top: 2rem;
+  padding-left: 64px;
+  text-align: left;
+  color: #1d3125;
+}
+.Product-Card {
+  padding: 32px 64px;
+  color: #1d3125;
+}
+
+.CardProduct {
+  text-align: left;
+  padding: 32px;
+  background-color: #e59560;
+  height: 160px;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.CardProduct p {
+  margin: 1px 0px 1px 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 268px;
+}
+
+.CardProduct Button {
+  margin-top: 12px;
+  background-color: #1d3125;
+  border: 0px;
+}
+
+.CardProduct Button:hover {
+  margin-top: 12px;
+  color: #1d3125;
+  background-color: #f6f4e8;
+  border: 0px;
+}
+
+.cardproduct button{
+  margin-top: 12px;
+  color: #1d3125;
+  background-color: #f6f4e8;
+}
+
+.CardTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 268px;
+  margin: 0px;
+}
+
+.ReviewItem {
+  height: 256px;
+}
+
+.ReviewCaption h3 {
+  color: #1d3125;
+}
+
+.ReviewCaption p {
+  color: #1d3125;
+}
+
+.Footer {
+  background-color: #1d3125;
+  color: #e59560;
+  margin: 0px;
+  padding: 64px 64px 8px 64px;
+  height: 320px;
+}
+
+.footer-link{
+  color:#664128;
+}
+
+.footer-link:hover{
+  color: #e59560;
+  text-decoration: none;
 }
